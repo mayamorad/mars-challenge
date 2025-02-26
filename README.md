@@ -62,19 +62,21 @@ Execute the Jupyter Notebooks in the following order:
     - Opens the Mars News website, scrapes article titles and previews, and stores them in a structured format.
   - Run part_2_mars_weather.ipynb
     - Opens the Mars Temperature Data site, extracts weather data, and performs data analysis.
-Expected Outputs
 
-Mars News Scraping
-List of dictionaries containing news article titles and previews.
-Optional: JSON file export.
-Mars Weather Scraping and Analysis
-DataFrame with structured Mars weather data.
-Answers to analysis questions:
-Number of Mars months and days in dataset.
-Coldest and warmest months (bar chart).
-Lowest and highest atmospheric pressure months (bar chart).
-Estimated number of Earth days in a Martian year (temperature plot).
-CSV file export of the DataFrame.
+### **Expected Outputs:**
+
+**Mars News Scraping**
+- List of dictionaries containing news article titles and previews.
+- Optional: JSON file export.
+
+**Mars Weather Scraping and Analysis**
+- DataFrame with structured Mars weather data.
+- Answers to analysis questions:
+  - Number of Mars months and days in dataset.
+  - Coldest and warmest months (bar chart).
+  - Lowest and highest atmospheric pressure months (bar chart).
+  - Estimated number of Earth days in a Martian year (temperature plot).
+- CSV file export of the DataFrame.
 
 ### **Notes:**
 - This project focuses on web scraping best practices and data visualization.
